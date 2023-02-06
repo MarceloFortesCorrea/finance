@@ -1,0 +1,17 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Plotter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <form method="POST" action="{{url_for('login.login')}}">
+        {{ form.hidden_tag() }}
+        {{ form.username.label }} {{ form.username() }}
+        {{ form.password.label }} {{ form.password() }}
+        {{ form.submit() }}
+    </form>
+  </p>{{ error }}</p>
+  </body>
+</html>

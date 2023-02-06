@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Plotter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    </p>
+      <h2>Simulator Monte Carlo</h2>
+    </p>
+    </div class="borda">
+      <form name="Simulator Monte Carlo" action=""{{ url_for('smc.smc') }}"" method="post">
+        <div style="display:block">
+          <label for="ticker">Enter Ticker Symbol:</label>
+          <input type="text" id="ticker" name="ticker" value="BTC-USD">
+        </div>
+        <div style="display:block; margin-top:10px;">
+            <label for="t_intervals">Enter the number of trial days:</label>
+            <input type="text" id="t_intervals" name="t_intervals" value="368">
+        </div>
+        <div style="display:block; margin-top:10px;">
+            <label for="interations">Enter the number of interactions per day:</label>
+            <input type="text" id="interations" name="interations" value="10">
+          <div style="display:block; margin-top:10px;">
+            <input type="submit" value="Generate Plot">
+          </div>
+        </div>
+      </form>
+    </div>
+    <p>
+     <a href="/logout">logout</a> 
+  </body>
+</html>

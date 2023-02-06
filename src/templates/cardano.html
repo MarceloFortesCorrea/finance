@@ -1,0 +1,16 @@
+<!-- cardano.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Plotter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <form method="POST" action="{{url_for('blockchain.balance')}}">
+        {{ form.hidden_tag() }}
+        {{ form.balance.label }} {{ form.balance() }}
+        {{ form.submit() }}
+    </form>
+  </p>{{ error }}</p>
+  </body>
+</html>

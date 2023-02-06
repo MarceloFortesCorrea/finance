@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.terminal.activateEnvironment": true,
+		"python.defaultInterpreterPath": "/home/marcelo/Documentos/Environments/projects/python_flask/.venv/bin/python",
+	}
+}

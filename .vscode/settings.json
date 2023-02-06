@@ -1,0 +1,7 @@
+{
+    "code-runner.executorMap": {
+        "python.defaultInterpreterPath": "/home/marcelo/Documentos/Environments/projects/python_flask/.venv/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "python": "venv/bin/python" 
+    }
+}
